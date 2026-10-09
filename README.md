@@ -1,7 +1,5 @@
 # Vehicle Fuel Efficiency Prediction
 
-Midterm course project for *Machine Learning Algorithms*
-
 ## Team members and roles
 
 Bigali Nugmash - **Data Analyst:** Problem statement and success criterion, data loading and initial inspection, EDA plots with interpretation, README
