@@ -1,13 +1,5 @@
 # Vehicle Fuel Efficiency Prediction
 
-## Team members and roles
-
-Bigali Nugmash - **Data Analyst:** Problem statement and success criterion, data loading and initial inspection, EDA plots with interpretation, README
-
-Iskander Ismagulov - **Feature & Evaluation Engineer:** Feature engineering (`trans_type`, `gears`, `disp_per_cyl`, preprocessor), group split by `Make` + `Model`, leakage protection, repository
-
-Asset Igilikov - **ML Engineer:** Mean baseline, Linear Regression, Decision Tree, KNN, hyperparameter selection, GroupKFold cross-validation, final test evaluation, error analysis, presentation
-
 ## Project question
 
 Can the combined fuel consumption of a new passenger car be predicted from its basic characteristics (model year, engine size, number of cylinders, vehicle class, transmission type, fuel type)?
