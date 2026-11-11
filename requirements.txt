@@ -1,0 +1,11 @@
+# Tested with Python 3.13 (notebooks/endterm.ipynb, Restart & Run All, 2026-11-11).
+# Stage 7: after the ANN stage is merged, regenerate in the project venv with
+#   pip freeze > requirements.txt
+# and add the ANN framework (tensorflow or torch) here.
+numpy==2.5.3
+pandas==3.0.5
+scikit-learn==1.9.1
+scipy==1.18.1
+matplotlib==3.11.2
+seaborn==0.13.2
+jupyter
