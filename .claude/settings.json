@@ -1,0 +1,12 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(python -c ' *)",
+      "PowerShell(py -3.13 -m venv .venv)",
+      "PowerShell(& .venv\\\\Scripts\\\\python.exe -m pip install --quiet --upgrade pip)",
+      "PowerShell(& .venv\\\\Scripts\\\\python.exe -m pip install --quiet -r requirements.txt ipykernel)",
+      "PowerShell(& .venv\\\\Scripts\\\\python.exe -c \"import sys, numpy, pandas, sklearn, scipy, matplotlib, seaborn, torch, ipykernel; print\\(sys.version.split\\(\\)[0], numpy.__version__, pandas.__version__, sklearn.__version__, scipy.__version__, matplotlib.__version__, seaborn.__version__, torch.__version__, 'ipykernel', ipykernel.__version__\\)\")",
+      "Bash(git check-ignore *)"
+    ]
+  }
+}
